@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://www.gardeners.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-GSC_Products/default/dw95ef4629/Products/8597388_2141.jpg?sw=840&sh=1120&sm=fit");
+    background-color: beige;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+select {
+    width: 20%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+input[type=submit]:hover{
+    background-color:palevioletred;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+label{
+    color: white;
+    font-size: 40px;
+
+}
+div {
+   
+    background-size: auto;
+    text-align:left;
+    border-radius: 50px 20px;
+    
+    padding: 10px;
+    margin: 90px;
+
+  }
+input[type=text],input[type=password] {
+ background-position: center;
+    width: 30%;
+    box-sizing: border-box;
+    border: 3px solid rgb(214, 138, 138);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    color: crimson;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+    color: rgb(213, 205, 221)
+  }
+h1{
+    border-radius:  25px;
+    color: indianred;
+    font-size: 50px ;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(221, 205, 205,1);
+   
+}
+p{
+    color: palevioletred;
+    font-size: 30px;
+    text-align:right;
+}
+a{
+   
+    display:block;
+    color: #000000;
+    padding:50px 10px;
+    text-decoration: none;
+    text-align: right;
+   
+}
